@@ -7,6 +7,7 @@
     <title>Primeiro programa</title>
     <style>
         h1{
+            font: normal 20pt Arial;
             color: rgba(19, 42, 57, 0.874);
         }
     </style>
@@ -15,6 +16,10 @@
     <h1>
         somando os numeros
     </h1>
-    <script async src="porcentagem.js" ></script>
+    <script>
+        var nome = window.prompt('Qual o seu nome?')
+        document.writeln(`Ola, <strong>${nome}</strong>! Seu nome tem ${nome.length} letras.<br/>`)
+        document.writeln(`Bem vindo ${nome.toUpperCase()}`)
+    </script>
 </body>
 </html>
